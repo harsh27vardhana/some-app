@@ -4,7 +4,7 @@
   "description": "",
   "main": "backend/server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node backend/server.js",
     "start:prod": "set NODE_ENV=production&&nodemon server.js",
     "watch:js": "parcel watch ./public/js/post.js --out-dir ./public/js --out-file bundle.js"
   },
